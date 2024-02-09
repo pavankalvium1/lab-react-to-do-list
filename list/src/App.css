@@ -1,0 +1,56 @@
+/* App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background-color: #dce0bc;
+}
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+  background-color: #99c686;
+  border: none;
+}
+input[type="text"]::placeholder {
+  color: black;
+  font: bold;
+  letter-spacing: 1px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.buttons button {
+  margin-right: 5px;
+}
+button {
+  height: 31px;
+  padding: 0;
+  color: black;
+  border: 1px solid brown;
+  padding: 10px;
+  background-color: #579a77;
+  align-items: center;
+  border-radius: 5px;
+}
+li{
+  color: rgb(33, 9, 9);
+  display: flex;
+}
+h1{
+  color: rgb(39, 22, 22);
+}
+.buttons{
+margin-left: 20px;
+}
